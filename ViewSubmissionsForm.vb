@@ -1,5 +1,6 @@
 ﻿Imports Newtonsoft.Json
 Imports System.Net.Http
+Imports System.Text
 
 Public Class ViewSubmissionsForm
 
@@ -56,6 +57,20 @@ Public Class ViewSubmissionsForm
 
     End Sub
 
+    Private Async Function DeleteUserData(index As Integer) As Task(Of Boolean)
+        Using client As New HttpClient()
+            Dim content As New StringContent(JsonConvert.SerializeObject(New With {Key .index = index}), Encoding.UTF8, "application/json")
+            Dim response As HttpResponseMessage = Await client.DeleteAsync($"http://localhost:5000/delete?index={index}")
+
+            If response.IsSuccessStatusCode Then
+                Return True
+            Else
+                MessageBox.Show("Error deleting user data.")
+                Return False
+            End If
+        End Using
+    End Function
+
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Dim index As Integer = 0
         DisplayUserData(index)
@@ -75,7 +90,13 @@ Public Class ViewSubmissionsForm
         DisplayUserData(currentIndex)
     End Sub
 
-
-
-
+    Private Async Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        If Await DeleteUserData(currentIndex) Then
+            MessageBox.Show("Submission deleted successfully!")
+            If currentIndex > 0 Then
+                currentIndex -= 1
+            End If
+            DisplayUserData(currentIndex)
+        End If
+    End Sub
 End Class

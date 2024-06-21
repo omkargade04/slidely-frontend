@@ -19,3 +19,4 @@ C:\Users\gomka\source\repos\Slidely Task-2\Slidely Task-2\obj\Debug\net8.0-windo
 C:\Users\gomka\source\repos\Slidely Task-2\Slidely Task-2\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
 C:\Users\gomka\source\repos\Slidely Task-2\Slidely Task-2\obj\Debug\net8.0-windows\Slidely Task-2.vbproj.AssemblyReference.cache
 C:\Users\gomka\source\repos\Slidely Task-2\Slidely Task-2\obj\Debug\net8.0-windows\Slidely .76F6AEC3.Up2Date
+C:\Users\gomka\source\repos\Slidely Task-2\Slidely Task-2\obj\Debug\net8.0-windows\Slidely Task-2.sourcelink.json

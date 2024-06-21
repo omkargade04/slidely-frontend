@@ -31,9 +31,9 @@ Partial Class Form1
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 10F)
-        Label1.Location = New Point(154, 112)
+        Label1.Location = New Point(191, 115)
         Label1.Name = "Label1"
-        Label1.Size = New Size(339, 23)
+        Label1.Size = New Size(258, 23)
         Label1.TabIndex = 0
         Label1.Text = "Slidely Task 2 - Slidely Form App "
         ' 

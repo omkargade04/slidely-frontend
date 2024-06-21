@@ -36,6 +36,8 @@ Partial Class ViewSubmissionsForm
         Button1 = New Button()
         Button2 = New Button()
         Button3 = New Button()
+        Button4 = New Button()
+        Button5 = New Button()
         SuspendLayout()
         ' 
         ' TextBox1
@@ -140,7 +142,7 @@ Partial Class ViewSubmissionsForm
         ' Button1
         ' 
         Button1.BackColor = Color.LemonChiffon
-        Button1.Location = New Point(240, 431)
+        Button1.Location = New Point(235, 460)
         Button1.Name = "Button1"
         Button1.Size = New Size(156, 42)
         Button1.TabIndex = 11
@@ -150,7 +152,7 @@ Partial Class ViewSubmissionsForm
         ' Button2
         ' 
         Button2.BackColor = Color.LightSkyBlue
-        Button2.Location = New Point(463, 431)
+        Button2.Location = New Point(464, 460)
         Button2.Name = "Button2"
         Button2.Size = New Size(167, 42)
         Button2.TabIndex = 12
@@ -167,11 +169,32 @@ Partial Class ViewSubmissionsForm
         Button3.Text = "Display First User"
         Button3.UseVisualStyleBackColor = False
         ' 
+        ' Button4
+        ' 
+        Button4.Location = New Point(0, 0)
+        Button4.Name = "Button4"
+        Button4.Size = New Size(94, 29)
+        Button4.TabIndex = 14
+        Button4.Text = "Button4"
+        Button4.UseVisualStyleBackColor = True
+        ' 
+        ' Button5
+        ' 
+        Button5.BackColor = Color.IndianRed
+        Button5.Location = New Point(385, 410)
+        Button5.Name = "Button5"
+        Button5.Size = New Size(132, 29)
+        Button5.TabIndex = 15
+        Button5.Text = "DELETE USER"
+        Button5.UseVisualStyleBackColor = False
+        ' 
         ' ViewSubmissionsForm
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(865, 538)
+        Controls.Add(Button5)
+        Controls.Add(Button4)
         Controls.Add(Button3)
         Controls.Add(Button2)
         Controls.Add(Button1)
@@ -206,4 +229,6 @@ Partial Class ViewSubmissionsForm
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Button5 As Button
 End Class

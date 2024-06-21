@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("Slidely Task-2"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c72f13ecddcec605080a4862be0e18fc39df3da5"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("Slidely Task-2"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("Slidely Task-2"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
