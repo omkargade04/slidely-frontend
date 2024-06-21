@@ -1,0 +1,21 @@
+C:\Users\gomka\source\repos\Slidely Task-2\Slidely Task-2\bin\Debug\net8.0-windows\Slidely Task-2.exe
+C:\Users\gomka\source\repos\Slidely Task-2\Slidely Task-2\bin\Debug\net8.0-windows\Slidely Task-2.deps.json
+C:\Users\gomka\source\repos\Slidely Task-2\Slidely Task-2\bin\Debug\net8.0-windows\Slidely Task-2.runtimeconfig.json
+C:\Users\gomka\source\repos\Slidely Task-2\Slidely Task-2\bin\Debug\net8.0-windows\Slidely Task-2.dll
+C:\Users\gomka\source\repos\Slidely Task-2\Slidely Task-2\bin\Debug\net8.0-windows\Slidely Task-2.pdb
+C:\Users\gomka\source\repos\Slidely Task-2\Slidely Task-2\obj\Debug\net8.0-windows\Slidely_Task_2.Form1.resources
+C:\Users\gomka\source\repos\Slidely Task-2\Slidely Task-2\obj\Debug\net8.0-windows\Slidely Task-2.vbproj.GenerateResource.cache
+C:\Users\gomka\source\repos\Slidely Task-2\Slidely Task-2\obj\Debug\net8.0-windows\Slidely Task-2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gomka\source\repos\Slidely Task-2\Slidely Task-2\obj\Debug\net8.0-windows\Slidely Task-2.AssemblyInfoInputs.cache
+C:\Users\gomka\source\repos\Slidely Task-2\Slidely Task-2\obj\Debug\net8.0-windows\Slidely Task-2.AssemblyInfo.vb
+C:\Users\gomka\source\repos\Slidely Task-2\Slidely Task-2\obj\Debug\net8.0-windows\Slidely Task-2.vbproj.CoreCompileInputs.cache
+C:\Users\gomka\source\repos\Slidely Task-2\Slidely Task-2\obj\Debug\net8.0-windows\Slidely Task-2.dll
+C:\Users\gomka\source\repos\Slidely Task-2\Slidely Task-2\obj\Debug\net8.0-windows\refint\Slidely Task-2.dll
+C:\Users\gomka\source\repos\Slidely Task-2\Slidely Task-2\obj\Debug\net8.0-windows\Slidely Task-2.pdb
+C:\Users\gomka\source\repos\Slidely Task-2\Slidely Task-2\obj\Debug\net8.0-windows\Slidely Task-2.genruntimeconfig.cache
+C:\Users\gomka\source\repos\Slidely Task-2\Slidely Task-2\obj\Debug\net8.0-windows\ref\Slidely Task-2.dll
+C:\Users\gomka\source\repos\Slidely Task-2\Slidely Task-2\obj\Debug\net8.0-windows\Slidely_Task_2.ViewSubmissionsForm.resources
+C:\Users\gomka\source\repos\Slidely Task-2\Slidely Task-2\obj\Debug\net8.0-windows\Slidely_Task_2.CreateNewSubmissionForm.resources
+C:\Users\gomka\source\repos\Slidely Task-2\Slidely Task-2\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\gomka\source\repos\Slidely Task-2\Slidely Task-2\obj\Debug\net8.0-windows\Slidely Task-2.vbproj.AssemblyReference.cache
+C:\Users\gomka\source\repos\Slidely Task-2\Slidely Task-2\obj\Debug\net8.0-windows\Slidely .76F6AEC3.Up2Date
