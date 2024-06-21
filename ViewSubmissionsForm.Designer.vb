@@ -35,9 +35,8 @@ Partial Class ViewSubmissionsForm
         Label6 = New Label()
         Button1 = New Button()
         Button2 = New Button()
-        Button3 = New Button()
-        Button4 = New Button()
         Button5 = New Button()
+        Label7 = New Label()
         SuspendLayout()
         ' 
         ' TextBox1
@@ -159,25 +158,6 @@ Partial Class ViewSubmissionsForm
         Button2.Text = "NEXT(CTRL+N)"
         Button2.UseVisualStyleBackColor = False
         ' 
-        ' Button3
-        ' 
-        Button3.BackColor = SystemColors.GradientInactiveCaption
-        Button3.Location = New Point(354, 58)
-        Button3.Name = "Button3"
-        Button3.Size = New Size(193, 34)
-        Button3.TabIndex = 13
-        Button3.Text = "Display First User"
-        Button3.UseVisualStyleBackColor = False
-        ' 
-        ' Button4
-        ' 
-        Button4.Location = New Point(0, 0)
-        Button4.Name = "Button4"
-        Button4.Size = New Size(94, 29)
-        Button4.TabIndex = 14
-        Button4.Text = "Button4"
-        Button4.UseVisualStyleBackColor = True
-        ' 
         ' Button5
         ' 
         Button5.BackColor = Color.IndianRed
@@ -188,14 +168,22 @@ Partial Class ViewSubmissionsForm
         Button5.Text = "DELETE USER"
         Button5.UseVisualStyleBackColor = False
         ' 
+        ' Label7
+        ' 
+        Label7.AutoSize = True
+        Label7.Location = New Point(337, 55)
+        Label7.Name = "Label7"
+        Label7.Size = New Size(214, 20)
+        Label7.TabIndex = 16
+        Label7.Text = "Slidely Task 2, View Submission"
+        ' 
         ' ViewSubmissionsForm
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(865, 538)
+        Controls.Add(Label7)
         Controls.Add(Button5)
-        Controls.Add(Button4)
-        Controls.Add(Button3)
         Controls.Add(Button2)
         Controls.Add(Button1)
         Controls.Add(Label6)
@@ -228,7 +216,6 @@ Partial Class ViewSubmissionsForm
     Friend WithEvents Label6 As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
+    Friend WithEvents Label7 As Label
 End Class

@@ -6,6 +6,8 @@ Public Class ViewSubmissionsForm
 
     Private Sub ViewSubmissionsForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.KeyPreview = True
+        Dim index As Integer = 0
+        DisplayUserData(index)
     End Sub
 
     Private Sub ViewSubmissionsForm_KeyDown(sender As Object, e As KeyEventArgs) Handles MyBase.KeyDown
@@ -70,11 +72,6 @@ Public Class ViewSubmissionsForm
             End If
         End Using
     End Function
-
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        Dim index As Integer = 0
-        DisplayUserData(index)
-    End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If currentIndex > 0 Then
